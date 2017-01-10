@@ -57,9 +57,6 @@
 		
 	<target name="compile_locales" description="compile locale files" depends="create_keys_locale">
  		<ant antfile="ant/compileLocale.xml" target="build"> 
- 			<property name="LANGUAGE" value="zh_CN"/> 
-		</ant>  
- 		<ant antfile="ant/compileLocale.xml" target="build"> 
  			<property name="LANGUAGE" value="en_US"/> 
 		</ant>  
  		<ant antfile="ant/compileLocale.xml" target="build"> 
